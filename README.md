@@ -1,115 +1,52 @@
-# Simple Beginner Web Portfolio
+# Personal Portfolio Website
 
-A simple personal **web portfolio** created as a beginner web development project. It showcases personal information, skills, projects, and contact details using basic HTML and CSS.
+A beginner-friendly personal portfolio built with **HTML5 and CSS3**. The page introduces the portfolio owner and presents education information, skills, sample projects, and contact details.
+
+![Portfolio preview](UI.png)
 
 ## Features
 
-* Personal introduction
-* About Me section
-* Skills section
-* Projects section
-* Contact information
-* Simple navigation menu
-* Responsive layout
-* Clean and beginner-friendly design
+- Single-page layout with in-page navigation
+- About, education, skills, projects, and contact sections
+- Student-record table and availability table
+- Local image asset
+- No build tools or package installation required
 
-## Technologies Used
+## Project files
 
-* HTML5
-* CSS3
+| File | Purpose |
+| --- | --- |
+| `portfolio.html` | Main portfolio webpage |
+| `UI.png` | Image displayed on the page |
+| `README.md` | Project documentation |
 
-## Project Structure
+## Run locally
 
-```text
-web-portfolio/
-│
-├── index.html
-├── style.css
-├── images/
-│   └── profile.jpg
-└── README.md
-```
+1. Clone the repository:
 
-## Sections
+   ```bash
+   git clone https://github.com/eDDie-05/Web1.git
+   cd Web1
+   ```
 
-### Home
+2. Open `portfolio.html` in a modern web browser.
 
-Introduces the portfolio owner with a short welcome message.
+You can also open the folder in Visual Studio Code and use a local preview extension while editing.
 
-### About Me
+## Customize
 
-Contains a brief description about the developer, education, interests, and goals.
+- Update the text and sections in `portfolio.html`.
+- Replace `UI.png` with an image you have permission to use, keeping the filename or updating the image path.
+- Add real project links where the sample project links currently appear.
 
-### Skills
+## Current scope
 
-Displays basic technical skills such as:
+This is a static HTML portfolio. It does not currently include a backend, database, JavaScript-powered contact form, or automated deployment.
 
-* HTML
-* CSS
-* JavaScript
-* C
-* Python
-* Git & GitHub
+## Contributing
 
-### Projects
-
-Example projects can include:
-
-* Student Management System
-* Calculator
-* Tetris Game
-* Tic-Tac-Toe
-* Hospital Registration and Appointment System
-* Converter
-* Other beginner programming projects
-
-### Contact
-
-Provides basic contact information and links to professional platforms.
-
-## How to Run
-
-No special installation is required.
-
-Simply open:
-
-```text
-index.html
-```
-
-in a web browser.
-
-You can also use **VS Code** with the Live Server extension to preview the website while developing.
-
-## Learning Objectives
-
-This project demonstrates:
-
-* HTML page structure
-* CSS styling
-* Navigation
-* Layout design
-* Responsive web design
-* Basic portfolio development
-* Organizing web project files
-
-## Future Improvements
-
-* Add JavaScript functionality
-* Add animations
-* Add a project gallery
-* Add a contact form
-* Add dark mode
-* Improve mobile responsiveness
-* Add downloadable CV
-* Deploy the portfolio online
-
-## eDDie
-
-**Personal Web Portfolio**
-
-Created as a beginner web development project.
+Suggestions and improvements are welcome. For substantial changes, open an issue first so the proposed change can be discussed.
 
 ## License
 
-This project is intended for educational and personal portfolio purposes.
+No open-source license is currently specified. All rights remain with the respective content owner unless a license is added.
